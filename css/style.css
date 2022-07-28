@@ -369,4 +369,8 @@ footer{
     .popup__btn{
         margin-top: 10px;
     }
+    .footer__contacts{
+        text-decoration: none;
+        color: white;
+    }
 }  
