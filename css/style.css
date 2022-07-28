@@ -338,6 +338,10 @@ footer{
     .popup{
         width: 100%;
     }
+    .footer__contacts{
+        text-decoration: none;
+        color: white;
+    }
 }
 @media(max-width: 320px) {
     .header__list{
