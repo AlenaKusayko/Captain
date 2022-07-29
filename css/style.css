@@ -72,7 +72,9 @@
    font-family: "Montserrat"; 
    font-weight: 500;
 }
-
+input[type^="button"]{
+    color:inherit;
+}
 
 /*Основная страница*/
 header{
