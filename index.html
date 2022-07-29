@@ -11,7 +11,13 @@
     <script type="text/javascript">
 
     $(document).ready(function(){
+        const body = document.body;
+        body.style.height = '100vh';
+         body.style.overflowY = 'hidden';
+
     $('.popup__btn.yes').click(function(){
+        body.style.height = '';
+        body.style.overflowY = '';
     $('.popup__container').css('display', 'none');    
     });
     $('.popup__btn.no').click(function(){
@@ -97,42 +103,28 @@
     </div>
     <nav >
         <div class="header__nav">
-            <div class="header__nav__block">
-                <div class="img__container">
+                <div class="img__container__nav">
                     <img src="img/yakor1.png" alt="якорь">
                 </div>
                 <a href="#">Кальяны</a>
-                <div class="img__container double">
-                    <img src="img/yakor1.png" alt="якорь">
-                </div>
-            </div>
-            <div class="header__nav__block">
-                <div class="img__container">
+            
+                <div class="img__container__nav">
                     <img src="img/yakor1.png" alt="якорь">
                 </div>
                 <a href="#">Табак</a>
-                <div class="img__container double">
-                    <img src="img/yakor1.png" alt="якорь">
-                </div>
-            </div>
-            <div class="header__nav__block">
-                <div class="img__container">
+           
+                <div class="img__container__nav">
                     <img src="img/yakor1.png" alt="якорь">
                 </div>
                 <a href="#">Вейп</a>
-                <div class="img__container double">
-                    <img src="img/yakor1.png" alt="якорь">
-                </div>
-            </div>
-            <div class="header__nav__block">
-                <div class="img__container">
+            
+                <div class="img__container__nav">
                     <img src="img/yakor1.png" alt="якорь">
                 </div>
                 <a href="#">Жидкость</a>
-                <div class="img__container double">
+                <div class="img__container__nav">
                     <img src="img/yakor1.png" alt="якорь">
                 </div>
-            </div>
         </div>   
     </nav>    
     </header>  
