@@ -73,7 +73,7 @@
    font-weight: 500;
 }
 input[type^="button"]{
-    color:inherit;
+    color:black;
 }
 
 /*Основная страница*/
